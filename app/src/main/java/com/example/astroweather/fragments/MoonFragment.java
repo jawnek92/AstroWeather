@@ -60,17 +60,15 @@ public class MoonFragment extends Fragment implements AstroCallback {
         this.moonset.setText(temp);
 
         stringBuilder = new StringBuilder();
-        temp = stringBuilder.append(moonInfo.getNextNewMoon().getDay()).append(".").append(moonInfo.getNextNewMoon().getMonth()).append(".").append(moonInfo.getNextNewMoon().getYear()).append(" ").append(moonInfo.getNextNewMoon()
-                .getHour()).append(":").append(moonInfo.getNextNewMoon().getMinute()).append(":").append(moonInfo.getNextNewMoon().getSecond()).toString();
+        temp = stringBuilder.append(moonInfo.getNextNewMoon().getDay()).append(".").append(moonInfo.getNextNewMoon().getMonth()).append(".").append(moonInfo.getNextNewMoon().getYear()).toString();
         this.newMoon.setText(temp);
 
         stringBuilder = new StringBuilder();
-        temp = stringBuilder.append(moonInfo.getNextFullMoon().getDay()).append(".").append(moonInfo.getNextFullMoon().getMonth()).append(".").append(moonInfo.getNextFullMoon().getYear()).append(" ").append(moonInfo.getNextFullMoon()
-                .getHour()).append(":").append(moonInfo.getNextFullMoon().getMinute()).append(":").append(moonInfo.getNextFullMoon().getSecond()).toString();
+        temp = stringBuilder.append(moonInfo.getNextFullMoon().getDay()).append(".").append(moonInfo.getNextFullMoon().getMonth()).append(".").append(moonInfo.getNextFullMoon().getYear()).toString();
         this.fullMoon.setText(temp);
 
         this.lunarPhase.setText(String.valueOf(SunFragment.round(moonInfo.getIllumination(), 2)));
-        this.dayMonthLunar.setText(String.valueOf(moonInfo.getAge()));
+        this.dayMonthLunar.setText(String.valueOf((int)moonInfo.getAge()));
     }
 
     @Nullable
