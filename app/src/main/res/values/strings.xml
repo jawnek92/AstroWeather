@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AstroWeather</string>
+    <string name="title_activity_main">AstroWeather</string>
+    <string name="tab_text_1">Sun</string>
+    <string name="tab_text_2">Moon</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Toggle settings</string>
+
+
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+
+    <string name="sunrise">Sunrise: </string>
+    <string name="sunset">Sunset: </string>
+    <string name="azimuth_rise">Azimuth Rise: </string>
+    <string name="azimuth_set">Azimuth Set: </string>
+    <string name="twilight_evening">Twilight evening: </string>
+    <string name="twilight_morning">Twilight morning: </string>
+
+    <string name="new_moon">New Moon: </string>
+    <string name="full_moon">Full Moon: </string>
+    <string name="lunar_phase">Lunar Phase: </string>
+    <string name="day_month_lunar">Day Month Lunar: </string>
+    <string name="moonrise">Moonrise: </string>
+    <string name="moonset">Moonset: </string>
+
+
+</resources>

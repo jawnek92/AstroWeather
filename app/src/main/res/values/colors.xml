@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E2296</color>
+    <color name="colorPrimaryDark">#07124D</color>
+    <color name="colorAccent">#4572FC</color>
+    <color name="sunColor">#1885D8</color>
+    <color name="moonColor">#0964A7</color>
+    <color name="settingsColor">#2A97E7</color>
+</resources>

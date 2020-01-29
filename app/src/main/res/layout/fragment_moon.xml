@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/moonColor"
+    tools:context=".fragments.MoonFragment">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/latitude"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/latitude"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/longitude"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/longitude"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/moonrise"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/moonrise"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/moonset"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/moonset"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/new_moon"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/newmoon"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/full_moon"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/fullmoon"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/lunar_phase"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/lunarphase"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/TextColor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/day_month_lunar"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/daylunar"
+                style="@style/TextColor"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

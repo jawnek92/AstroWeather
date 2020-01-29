@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_default_refresh_time">5s</string>
+    <string name="pref_refreshing_time">refresh_time</string>
+    <string name="pref_title_refresh_time">Refresh Time</string>
+    <string-array name="pref_refresh_time_titles">
+        <item>5s</item>
+        <item>10s</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>15min</item>
+    </string-array>
+    <string-array name="pref_refresh_time_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>900000</item>
+    </string-array>
+</resources>
